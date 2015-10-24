@@ -1273,9 +1273,9 @@ var w3c_slidy = {
       }
     };
 
-    for (i = 0; i < slides.length; ++i)
+    for (i = 0; i < this.slides.length; ++i)
     {
-      if (slides[i] == target)
+      if (this.slides[i] == target)
         return i;  // success
     }
 
